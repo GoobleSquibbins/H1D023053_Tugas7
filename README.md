@@ -26,3 +26,6 @@ Halaman AddEntry digunakan untuk menambahkan catatan monster baru ke dalam penyi
 
 **ABOUT**  
 Halaman AboutPage menampilkan informasi mengenai tujuan aplikasi. Tampilan menggunakan Scaffold dengan AppBar dan Side Menu, serta latar belakang yang konsisten dengan tema aplikasi. Pada bagian isi halaman, terdapat teks yang terpusat dan diberi jarak menggunakan Padding. Teks tersebut menjelaskan bahwa aplikasi berfungsi sebagai jurnal pribadi bagi pemburu untuk mencatat informasi monster, seperti habitat dan kelemahannya, serta mendukung pengguna dalam menyimpan catatan dan perkembangan perburuan.
+
+**SCREENSHOTS**  
+<img src="screenshot (1).jpg">
