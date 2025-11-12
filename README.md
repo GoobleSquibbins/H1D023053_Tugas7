@@ -21,7 +21,7 @@ Pada halaman HuntersNote, aplikasi menampilkan daftar catatan monster yang dimil
 
 Setiap entri monster disimpan dalam bentuk map yang diubah menjadi JSON, sehingga dapat disimpan dan dibaca kembali melalui SharedPreferences. Dalam tampilan, setiap monster ditampilkan menggunakan card yang memuat nama, habitat, kelemahan, dan deskripsi. Untuk monster yang ditambahkan oleh pengguna, tersedia tombol hapus. Ketika tombol tersebut dipilih, aplikasi akan menampilkan dialog konfirmasi sebelum menghapus data dari penyimpanan. Halaman ini juga menampilkan pesan sambutan acak yang menggunakan nama pengguna, dan menyediakan tombol untuk menuju halaman penambahan entri baru.
 
-**ADD ENTRY**
+**ADD ENTRY**  
 Halaman AddEntry digunakan untuk menambahkan catatan monster baru ke dalam penyimpanan lokal aplikasi. Pada halaman ini, terdapat beberapa TextField yang berfungsi mengumpulkan data nama monster, habitat, kelemahan, serta deskripsinya. Ketika tombol “Save Entry” ditekan, program pertama-tama memeriksa apakah seluruh kolom telah diisi. Jika ada yang kosong, pengguna akan menerima peringatan melalui dialog. Jika semua data lengkap, sistem menyimpan entri tersebut ke dalam SharedPreferences dalam bentuk JSON, sekaligus memberikan identitas unik untuk setiap data yang ditambahkan. Setelah penyimpanan berhasil, aplikasi menampilkan pesan konfirmasi, lalu mengarahkan pengguna kembali ke halaman daftar catatan monster.
 
 **ABOUT**  
