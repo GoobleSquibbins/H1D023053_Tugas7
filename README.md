@@ -24,5 +24,5 @@ Setiap entri monster disimpan dalam bentuk map yang diubah menjadi JSON, sehingg
 **ADD ENTRY**
 Halaman AddEntry digunakan untuk menambahkan catatan monster baru ke dalam penyimpanan lokal aplikasi. Pada halaman ini, terdapat beberapa TextField yang berfungsi mengumpulkan data nama monster, habitat, kelemahan, serta deskripsinya. Ketika tombol “Save Entry” ditekan, program pertama-tama memeriksa apakah seluruh kolom telah diisi. Jika ada yang kosong, pengguna akan menerima peringatan melalui dialog. Jika semua data lengkap, sistem menyimpan entri tersebut ke dalam SharedPreferences dalam bentuk JSON, sekaligus memberikan identitas unik untuk setiap data yang ditambahkan. Setelah penyimpanan berhasil, aplikasi menampilkan pesan konfirmasi, lalu mengarahkan pengguna kembali ke halaman daftar catatan monster.
 
-**ABOUT**
+**ABOUT**  
 Halaman AboutPage menampilkan informasi mengenai tujuan aplikasi. Tampilan menggunakan Scaffold dengan AppBar dan Side Menu, serta latar belakang yang konsisten dengan tema aplikasi. Pada bagian isi halaman, terdapat teks yang terpusat dan diberi jarak menggunakan Padding. Teks tersebut menjelaskan bahwa aplikasi berfungsi sebagai jurnal pribadi bagi pemburu untuk mencatat informasi monster, seperti habitat dan kelemahannya, serta mendukung pengguna dalam menyimpan catatan dan perkembangan perburuan.
